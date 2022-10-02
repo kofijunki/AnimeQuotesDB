@@ -1,9 +1,12 @@
 # AnimeQuotesDB
 A database of Anime Quotes
 
-Rules to add are as follows
-1. Add in this order - "Quote",Character,Anime in a single line
-2. Make sure the quote doesnt already exist
-3. Make sure the quote is in English only
+## Files
 
-*All quotes that dont fit these will be removed
+- `quotes.json` - Contains all the quotes in JSON format
+- `quotes.csv` - Contains all the quotes in CSV format
+
+## Database guidelines
+1. Add quotes in both `quotes.json` and `quotes.csv`
+2. Do not add duplicate quotes
+3. Do not add quotes in other languages that are not English
